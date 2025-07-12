@@ -24,3 +24,8 @@ PersonalAssistant.prototype.reportMood = function() {
   console.log(`Mood: ${this.mood}`);
 };
 
+let myAssistant = new PersonalAssistant("Vignesh");
+PersonalAssistant.prototype.introduce = function() {
+  console.log(`Hi! I'm ${this.name}, your assistant.`);
+};
+
