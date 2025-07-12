@@ -29,3 +29,15 @@ PersonalAssistant.prototype.introduce = function() {
   console.log(`Hi! I'm ${this.name}, your assistant.`);
 };
 
+
+myAssistant.introduce(); 
+myAssistant.reportMood();
+
+myAssistant.addTask("Finish js assignment");
+myAssistant.addTask("Play cricket with friends");
+myAssistant.addTask("spend time with family");
+myAssistant.completeTask();
+myAssistant.reportMood();              
+
+myAssistant.completeTask();
+myAssistant.reportMood();
